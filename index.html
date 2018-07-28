@@ -19,8 +19,8 @@
         <p> Press R, P or S to start game! </p>
      </div>
 
-     <div id = "rpsgamebox">
-         <p>Scoreboard</p>
+     <div id = "rpsgamebox"> 
+         <!--empty div, added score board via js -->
      </div>
 
 
@@ -74,7 +74,8 @@
          
           else {swal ("Please choose rock, paper, or scissors"); }
 
-          var html =
+          var html = 
+                "<p> <strong> Scoreboard </strong> </p>" +
                 "<p> Wins: " + wins + "</p>" +
                 "<p> Losses: " + losses + "</p>" +
                 "<p> Ties: " + ties + "</p>";

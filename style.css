@@ -5,10 +5,12 @@
     margin-bottom:40px;
 }
 
-#rpsheader {
+
+
+#rpsheader{
     border: 1px solid white;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+    width:50%;
 }
 
 #rpsgame{
@@ -27,15 +29,22 @@
     color: white;
     text-align: center;
     margin:auto; 
-    margin-bottom:50px;
+    margin-bottom:25px;
     width:70%;
     height:200px;
     padding:70x;  
     padding-top:20px;
 }
 
-#inststyle {
-    border-bottom:1px solid white;
+/* border width: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/ */
+
+#inststyle:after {
+    content:""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;  /* This will center the border. */
+    width:30%; /* Change this to whatever width you want. */
+    padding-top:3px; /* This creates some space between the element and the border. */
+    border-bottom:1px solid white; /* This creates the border.*/
 }
 
 footer{

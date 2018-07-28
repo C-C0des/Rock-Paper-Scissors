@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors
-RPS game - UT CODING BOOTCAMP
+<a href = "https://christinecodes.github.io/Rock-Paper-Scissors/">RPS game </a> - UT CODING BOOTCAMP
 
 ### Instructions
 

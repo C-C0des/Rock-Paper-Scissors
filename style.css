@@ -27,11 +27,23 @@
     color: white;
     text-align: center;
     margin:auto; 
+    margin-bottom:50px;
     width:70%;
     height:200px;
     padding:50px;   
+
 }
 
 #inststyle {
     border-bottom:1px solid white;
+}
+
+footer{
+    background:lightskyblue;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    padding:10px;
+    color:white;
+    text-align: center;
 }

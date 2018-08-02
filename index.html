@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel = "stylesheet" href = "style.css">
     <title>RPS-Game</title>
@@ -24,7 +23,7 @@
 
      <div id = "rpsgame">
         <h3 id = "inststyle">  Instructions </h3>
-        <p> Press R, P or S to start game! </p>
+        <p> Press R, P or S to start game </p>
      </div>
 
      <div id = "rpsgamebox"> 
@@ -84,6 +83,8 @@
 
           var html = 
                 "<p> <strong> Scoreboard </strong> </p>" +
+                "<p> Computer Guessed: " + computerGuess + "<p>" +
+                 "<p> You Guessed: " + userGuess + "<p>" +
                 "<p> Wins: " + wins + "</p>" +
                 "<p> Losses: " + losses + "</p>" +
                 "<p> Ties: " + ties + "</p>";
